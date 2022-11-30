@@ -3,5 +3,3 @@ def recursive():
     recursive()
 
 print(recursive())
-
-print("hello world")
