@@ -16,7 +16,7 @@ def bfs(node, start, visited):
             if visited[l] == False:
                 queue.append(l)
                 visited[l] = True
-
+                
 bfs(node,1,visited)
 
 
