@@ -10,4 +10,3 @@ def solution(angle):
     elif angle == 180:
         answer = 4
     return answer
-    
