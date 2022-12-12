@@ -6,4 +6,4 @@ def solution(my_string):
         answer+= my_string[x-1]
         x-=1
     return answer
-print(solution("abc"))
+print(solution("ab"))
