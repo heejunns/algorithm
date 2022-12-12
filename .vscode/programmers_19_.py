@@ -10,3 +10,4 @@ def solution(dot):
     elif dot[0] > 0 and dot[1] < 0 :
         answer = 4
     return answer
+print(solution([2,3]))
