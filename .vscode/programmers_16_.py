@@ -5,3 +5,4 @@ def solution(n):
     else:
         answer = (n//7)+1
     return answer
+print(solution(9))
