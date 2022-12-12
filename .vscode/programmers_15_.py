@@ -5,3 +5,4 @@ def solution(array, height):
         if i > height:
             answer+=1
     return answer
+print(solution([1,2,3],1))
