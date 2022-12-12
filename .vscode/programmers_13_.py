@@ -4,5 +4,3 @@ def solution(n, k):
     y = k-x
     answer = (12000*n)+(y*2000)
     return answer
-   
-print(solution(10,1))
