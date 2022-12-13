@@ -5,4 +5,4 @@ def solution(n):
         if i%2 != 0:
             answer.append(i)
     return answer
-    
+print(solution(10))
