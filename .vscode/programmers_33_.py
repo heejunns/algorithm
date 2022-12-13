@@ -5,3 +5,4 @@ def solution(array):
     answer = array[x]
     return answer
 
+print(solution([1,1231,314,121,23,14,123]))
