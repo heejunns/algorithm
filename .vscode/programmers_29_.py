@@ -4,3 +4,4 @@ def solution(my_string, n):
     for i in my_string:
         answer+= i*n
     return answer
+print(solution("hello",3))
