@@ -9,3 +9,4 @@ def solution(num_list):
             odd_count+=1
     answer = [even_count,odd_count]
     return answer
+print(solution(10))
