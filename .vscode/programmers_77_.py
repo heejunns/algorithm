@@ -1,4 +1,4 @@
-# 프로그래머스 문자열 나누기 (level 0)
+# 프로그래머스 문자열 나누기 (level 1)
 def solution(s):
     answer = 0
     str = ""
