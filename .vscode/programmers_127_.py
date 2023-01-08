@@ -1,5 +1,5 @@
 # 프로그래머스 문자열 내 p와 y의 개수 (level 1)
-def solution(s):
+def solution(s): 
     answer = True
     count_p = 0 
     count_y = 0
