@@ -3,7 +3,7 @@ def solution(s):
     answer = True
     count_p = 0 
     count_y = 0
-    for i in s:
+    for i in s: # s 문자열 for문 반복
         if i == "p" or i == "P":
             count_p+=1
         elif i == "y" or i == "Y":
