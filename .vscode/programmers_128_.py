@@ -12,5 +12,5 @@ def solution(s):
                 x+=1 # 연속해서 문자가 나온다면 인덱스값 +1 
             else:
                 answer+= i.lower()
-                x+=1 # 연속해서 문자가 나온다면 인덱스값 +1
+                x+=1
     return answer
