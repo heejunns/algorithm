@@ -44,8 +44,8 @@ why_tomato = False # 아직 익지 않는 토마토가 있는지 여부를 저�
 for i in range(n): # 익지 않은 토마토가 있는지 확인
     for l in range(m):
         if info[i][l] ==  0:
-            what = True
-if what == True: # why_tomato 의 값이 true 라면 익지 않은 토마토가 있다는 뜻이니까 
+            why_tomato = True
+if why_tomato == True: # why_tomato 의 값이 true 라면 익지 않은 토마토가 있다는 뜻이니까 
     print(-1)
 elif len(result) == 0: # dfs 함수를 호출하고 반환받은 값에 아무 값도 없다면 처음부터 토마토는 모두 익어 있었다는 뜻이니까
     print(0)
